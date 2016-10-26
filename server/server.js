@@ -1,8 +1,8 @@
-#var express = require("express");
-#var request = require("request");
+var express = require("express");
+var request = require("request");
 
-#var app = express(); // call the express as a function
-
+var app = express(); // call the express as a function
+console.log("Hello World");
 #app.get("/hey", function(req, res) {
 #        res.send("Hey There!!!");
 #});
@@ -12,4 +12,3 @@
 #});
 
 #app.listen(3000);
-console.log("Hello World");
