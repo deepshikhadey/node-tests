@@ -1,3 +1,3 @@
 #!/bin/bash
 
-nginx & node ../server/server.js
+nginx & node ./server/server.js
