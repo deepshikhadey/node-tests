@@ -1,3 +1,3 @@
 #!/bin/bash
 
-nginx & node ./server/server.js
+nginx -g daemon off; & node ./server/server.js
