@@ -1,0 +1,20 @@
+{
+  "name": "node-training",
+  "version": "0.0.0",
+  "description": "Training project with Node",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Deepshikha Dey",
+  "license": "ISC",
+  "dependencies": {
+    "express": "~4.13.4",
+    "ejs": "~2.4.1",
+    "request": "~2.69.0"
+  }
+}
