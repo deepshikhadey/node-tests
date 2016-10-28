@@ -1,3 +1,4 @@
 #!/bin/bash
 
-node ./server/server.js & nginx -g 'daemon off;'
+#node ./server/server.js & nginx -g 'daemon off;'
+./consul_watcher.sh & nginx -g 'daemon off;'
